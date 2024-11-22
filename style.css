@@ -1,0 +1,16 @@
+.title {
+    background-color: rgba(65, 175, 37, 0.74);
+    font: "Times New Roman", Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36;
+}
+
+p {
+    background-color: brown;
+}
+
+#cook {
+    width: 300px;
+    height: auto;
+}
