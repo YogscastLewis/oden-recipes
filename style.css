@@ -1,5 +1,8 @@
 body {
     background-color: rgba(226, 205, 109, 0.664);
+    border: solid 15px;
+    margin: 0;
+    border-color: rgba(124, 134, 26, 0.74);
 }
 
 .mainstyle, .title, .olist {
@@ -12,12 +15,20 @@ body {
     font-weight: bold;
     text-align: center;
     font-size: 42;
+    padding: 20px;
+    border: solid 10px;
+    border-color:  rgba(29, 133, 60, 0.74);
+    margin: 50px;
 }
 
 
 .mainstyle {
     background-color: rgba(46, 159, 211, 0.897);
     font-size: 24px;
+    padding: 15px;
+    border: solid 8px;
+    border-color: rgba(46, 112, 211, 0.897);
+    margin: 30px;
 }
 
 #cook {
