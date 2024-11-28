@@ -5,7 +5,7 @@ body {
     border-color: rgba(124, 134, 26, 0.74);
 }
 
-.mainstyle, .title, .olist {
+.mainstyle, .title, .olist, .indlink {
     font-family: Georgia, Helvetica, "Times New Roman", serif;
     color: white;
 }
@@ -57,5 +57,23 @@ body {
 
 ul {
     margin: 0px auto;
+}
+
+.ulist {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+    padding-top: 50px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 50px;
+    background-color: rgb(235, 38, 38);
+    border: 10px solid black;
+    margin: 20px auto;
+}
+
+.indlink {
+    font-size: 50px;
 }
 
