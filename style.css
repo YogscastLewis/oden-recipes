@@ -60,6 +60,14 @@ ul {
 }
 
 .ulist {
+    display: flex;
+}
+
+.indlink {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
     box-sizing: border-box;
     display: inline-block;
     height: 200px;
@@ -68,12 +76,8 @@ ul {
     padding-left: auto;
     padding-right: auto;
     padding-bottom: 50px;
-    background-color: rgb(235, 38, 38);
-    border: 10px solid black;
+    background-color: rgb(212, 89, 58);
+    border: 10px solid rgb(128, 82, 61);
     margin: 20px auto;
-}
-
-.indlink {
-    font-size: 50px;
 }
 
